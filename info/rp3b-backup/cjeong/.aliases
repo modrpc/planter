@@ -1,0 +1,68 @@
+# @file .aliases
+#
+
+# abbreviations
+alias ..='cd ..'
+alias cls='clear'
+alias ls='ls -F -X -v --color=auto --group-directories-first'
+alias dir='ls -lF -X'
+alias pd='pushd .'
+
+# chdir shortcuts
+alias cdtex='cd $TEXMF'
+alias doc='cd ~/doc'
+alias mvdoc='cd ~/work/meadow/mvdoc'
+alias wo='cd ~/work'
+alias reg='cd ~/work/mv/tests'
+alias to='cd ~/work/tools'
+alias db='cd ~/ztmp/Dropbox'
+alias box='cd ~/ztmp/Dropbox'
+alias comp='pushd ~/work/mv/src; make; popd'
+alias hd='cd $HADOOP_INSTALL'
+alias www='cd /var/www'
+alias co='cd ~/doc/code'
+alias vid='cd /zig/video'
+
+# automatically-added options
+alias vncviewer='vncviewer -Shared'
+alias dvips='dvips -t letter'
+alias xdvi='xdvi -s 4 -expert'
+
+# misc
+alias more='less'
+alias mkbib='ln -s ~/doc/bib bib'
+alias so='source ~/.bashrc'
+alias lpq='fortune'
+alias svncommit='svn --message="" commit'
+alias todo='vi ~/.todo'
+alias vihtml='vi ~/doc/html/index.html'
+alias key='xmodmap ~/.Xmodmap'
+alias xpdf='acroread'
+alias mc='make clean'
+alias mmc='make maintainer-clean'
+alias infos='vi ~/doc/info/info.txt'
+alias vs0='vncserver -geometry 1920x1023'
+alias vs1='vncserver -geometry 1366x706'
+alias vs2='vncserver -geometry 1600x838'
+alias firefox='firefox > /dev/null 2>&1 &'
+alias chrome='google-chrome > /dev/null 2>&1 & '
+alias gitpush='git add .; git commit -a -m \"minor\"; git push'
+alias vnc='vncviewer cadence' 
+alias vi='vim'
+
+# httpd
+alias httpd_kill='sudo kill -TERM `cat /var/run/apache2.pid`'
+alias httpd_restart='sudo /usr/sbin/apache2ctl restart'
+alias key='xmodmap ~/.Xmodmap'
+alias etc='cd /cygdrive/c/Windows/System32/drivers/etc'
+alias down='cd /cygdrive/c/Users/cjeong/Downloads'
+alias win='cd /cygdrive/c/Users/cjeong/Downloads'
+alias ssh='ssh -X'
+
+alias gogo='cd $GOPATH/src/github.com/mvcode/mvgo'
+alias gitpush='git commit -a -m "updated"; git push'
+alias sysc='source ~/doc/etc/systemc.sh'
+
+alias g1='gsettings set org.gnome.settings-daemon.plugins.background active true'
+alias g0='gsettings set org.gnome.settings-daemon.plugins.background active false'
+alias cdns='vncviewer cadence'

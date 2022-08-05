@@ -1,0 +1,18 @@
+# @file .bashrc
+#
+
+# load default bashrc
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+source ~/doc/etc/bashrc
+
+# to fix emacs backspace problem
+stty erase "^H"
+
+export GOHOME=/cygdrive/c/Users/cjeong/Go
+export PATH=$GOHOME/bin:$PATH
+export GOROOT="C:/Users/cjeong/Go"
+export GOPATH="C:/Cygwin/home/cjeong/work/go"
+export PAT=$GOPATH/bin:$PATH
