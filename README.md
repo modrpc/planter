@@ -1,6 +1,6 @@
 # planter
 
-``
+```
 sudo apt update
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -13,4 +13,4 @@ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/m
 sudo python3 raspi-blinka.py
 
 pip3 install --upgrade adafruit-circuitpython-dotstar adafruit-circuitpython-motor adafruit-circuitpython-bmp280
-``
+```
